@@ -1,1 +1,25 @@
-
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/power-plant.js"></script>
+    <title>Power Plant</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grow-buttons">
+        <button class="btn-success" id="feed">Add soil</button>
+        <button class="btn-success" id="feedMore">Add fertilized soil</button>
+        <button class="btn-success" id="water">Add water</button>
+        <button class="btn-success" id="waterMore">Add nutrient water</button>
+        <button class="btn-success" id="show-state">Current State</button>
+      </div>
+      <h1>Your Plant's Values</h1>
+      <h3><div id="soil-value">Soil: 0</div></h3>
+      <h3><div id="water-value">Water: 0</div></h3>
+      <h3><div id="state-values">Snapshot: 0</div></h3>
+    </div>
+  </body>
+</html>
