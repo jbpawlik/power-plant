@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Galactic Age',
+      title: 'Power Plant',
       template: './src/index.html',
       inject: 'body'
     }),
@@ -48,7 +48,6 @@ module.exports = {
           }
         ]
       },
-      
       {
         test:/\.html$/,
         use: [
